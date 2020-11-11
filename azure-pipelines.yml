@@ -25,6 +25,6 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: '**/jint*.xml'
+    testResultsFiles: '**/junit*.xml'
     mergeTestResults: true
   continueOnError: true
